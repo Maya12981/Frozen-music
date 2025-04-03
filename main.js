@@ -352,8 +352,8 @@ async function playSong(chatId, song, processingMsg) {
     if (playResponse.ok) {
       const keyboard = getPlaybackKeyboard();
       keyboard.inline_keyboard.push([
-        { text: "✨ Updates ✨", url: "https://t.me/vibeshiftbots" },
-        { text: "💕 Support 💕", url: "https://t.me/Frozensupport1" }
+        { text: "✨ Updates ✨", url: "https://t.me/PAID_PROMOTION_PROOFS" },
+        { text: "💕 Support 💕", url: "https://t.me/PAID_PROMOTION_PROOFS" }
       ]);
       const caption = `**ғʀᴏᴢᴇɴ ✘ ᴍᴜsɪᴄ ση sᴛʀєᴧϻɪηɢ ⏤͟͞●**\n\n` +
                       `**❍ ᴛɪᴛʟє ➥** ${song.title}\n\n` +
@@ -616,7 +616,7 @@ async function handleRequest(request) {
         inline_keyboard: [
           [
             { text: "➕ Add me", url: "https://t.me/vcmusiclubot?startgroup=true" },
-            { text: "💬 Support", url: "https://t.me/Frozensupport1" }
+            { text: "💬 Support", url: "https://t.me/PAID_PROMOTION_PROOFS" }
           ],
           [
             { text: "❓ Help", callback_data: "show_help" }
@@ -704,7 +704,7 @@ async function handleRequest(request) {
         inline_keyboard: [
           [
             { text: "➕ Add me", url: "https://t.me/vcmusiclubot?startgroup=true" },
-            { text: "💬 Support", url: "https://t.me/Frozensupport1" }
+            { text: "💬 Support", url: "https://t.me/PAID_PROMOTION_PROOFS" }
           ],
           [
             { text: "❓ Help", callback_data: "show_help" }
